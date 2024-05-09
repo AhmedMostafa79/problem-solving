@@ -1,0 +1,31 @@
+Key:
+1)convert key to binary
+2)pc1(64->56)
+	permute all 1--64 but n%8
+3)c0,d0;
+	ci,di->pc2->k[i]
+	c1,d1,....c16,d16(shift-L 2 all but 1,2,9,16)
+4)
+PC 1
+57 49 41 33 25 17 9 1 58 50 42 34 26 18 10 2 59 51 43 35 27 19 11 3 60 52 44 36 63 55 47 39 31 23 15 7 62 54 46 38 30 22 14 6 61 53 45 37 29 21 13 5 28 20 12 4
+
+
+PC 2:
+14 17 11 24 1 5 3 28 15 6 21 10 23 19 12 4 26 8 16 7 27 20 13 2 41 52 31 37 47 55 30 40 51 45 33 48 44 49 39 56 34 53 46 42 50 36 29 32
+
+Message():
+1)Convert M to binary
+2)IP(initial permutation) 64 bits
+3)divide into l0,r0
+	li=r[i-1],ri=l[i-1] XOR f(R[i-1],Ki)
+	1)f(R[i-1],Ki)-->expand(R[i-1])
+	2)ex(R[i-1]) XOR Ki
+	3)s-Box[i]= ex(R[i-1]) XOR Ki (8 s-Boxes)
+		- s-Box[i]--> 4:rows,each = 16 cols (random shuffl(0,16))
+		-each 6 bits= row=decimal("0+5"),col=decimal("1:5")
+	4)Ri=L[i-1] XOR (s-Box())
+	5)P-Box random shuffle(Ri)
+	6)IP^-1
+
+IP
+58 50 42 34 26 18 10 2 60 52 44 36 28 20 12 4 62 54 46 38 30 22 14 6 64 56 48 40 32 24 16 8 57 49 41 33 25 17 9 1 59 51 43 35 27 19 11 3 61 53 45 37 29 21 13 5 63 55 47 39 31 23 15 7
