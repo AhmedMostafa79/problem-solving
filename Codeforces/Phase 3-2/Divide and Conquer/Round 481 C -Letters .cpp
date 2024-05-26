@@ -1,12 +1,3 @@
-
-#include<bits/stdc++.h>
-using namespace std;
-#define  ll long long 
-#define  range(v) ((v).begin()),((v).end())
-#define Fast ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0)
-#define frac(n) fixed<<setprecision(n)
-//random_shuffle(range(v))
-//accumulate(range(v),0);//gets sum of range 
 #include<bits/stdc++.h>
 using namespace std;
 #define  ll long long 
