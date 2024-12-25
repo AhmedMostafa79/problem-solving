@@ -10,7 +10,6 @@ from Play_Fair_Cipher import PlayfairCipher
 from AES_Encryption import AES_Cipher 
 from Ciphers_ import Ciphers
 import binascii
-# i was handling exceptions in ciphers
 class Form:
     def __init__(self):
         self.window = CTk()
@@ -103,7 +102,7 @@ class Form:
             return
         if cipher=="Caeser":
             try:
-                encrypted_text = Ciphers.Caeser(key,input_text,True)  # Encrypt input text using Caesar cipher
+                encrypted_text = Ciphers.Caeser(key,input_text,True) 
             except ValueError as e:
                 messagebox.showerror("Error",str(e))
                 return
