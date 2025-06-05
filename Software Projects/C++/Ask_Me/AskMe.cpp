@@ -647,7 +647,7 @@ public:
 	}
 
 	bool DoLogin() {
-		LoadDatabase();//if user logined from parallel run
+		LoadDatabase();//if user logged in from parallel run
 		while (true) {
 			string username, password;
 			cout << "Enter Username or 0 to cancel: ";

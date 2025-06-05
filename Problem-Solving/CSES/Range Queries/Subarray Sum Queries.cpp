@@ -12,37 +12,29 @@ const int di[] = { 'U','R','D','L' };
 int countbit(ll n) { return (n > 1 ? (n & 1) + countbit(n >> 1) : n); }
 ll gcd(ll x, ll y) { if (!y)return x; return gcd(y, x % y); }
 ll lcm(ll x, ll y) { return x * y / gcd(x, y); }
-const int N = 1e6 + 3, mod = 1e9 + 7;
+const int N = 3e3 + 3, mod = 1e9 + 7;
 template<typename T = int>class SegmentTree {
     struct  Node {
-        ll val;
-        pair<int, int> ar[2]{};
-        Node() :val(0) {}
-        Node(ll v) :val(v) {
-            ar[0] = { v,1 };
+        ll pref, suf, sum, mx;
+
+        Node() :pref(-1e15), suf(-1e15), mx(-1e15), sum(0) {
+
+        }
+        Node(ll v) :pref(v), suf(v), mx(v), sum(v) {
+
         }
         void change(ll val) {
-            this->val = val;
-            ar[0] = { val,1 };
+            pref = sum = suf = mx = val;
         }
     };
     vector<Node>tree;
     int size;
     Node merge(const Node& a, const Node& b) {
         Node temp;
-        pair<int, int> ar[4]{ a.ar[0],a.ar[1],b.ar[0],b.ar[1] };
-        sort(ar, ar + 4, greater<>());
-        for (int i = 0; i < 4; i++) {
-            for (int j = i + 1; j < 4; j++) {
-                if (ar[i].first == ar[j].first)
-                    ar[i].second += ar[j].second;
-            }
-        }
-        temp.ar[0] = ar[0];
-        for (int i = 3; i >= 0; i--) {
-            if (ar[i].first != ar[0].first)
-                temp.ar[1] = ar[i];
-        }
+        temp.sum = a.sum + b.sum;
+        temp.pref = max(a.pref, a.sum + b.pref);
+        temp.suf = max(b.suf, a.suf + b.sum);
+        temp.mx = max({ a.mx,b.mx,a.suf + b.pref });
         return temp;
     }
     void build(int l, int r, int i, const vector<T>& values) {
@@ -90,49 +82,36 @@ public:
         build(0, size - 1, 0, v);
     }
     ll query(int lq, int rq) {
-        auto ret = query(0, size - 1, 0, lq, rq);
-        if (ret.ar[0].first == ret.ar[3].first)
-            return 0;
-        else
-            return ret.ar[1].second;
+        return query(0, size - 1, 0, lq, rq).mx;
     }
     void update(int i, int val) {
         update(0, size - 1, 0, i, val);
     }
 };
 
+
 void solve() {
     int n, m;
     cin >> n >> m;
-    vector<int>v(n);
+    vector<ll>v(n);
     for (auto& i : v)
         cin >> i;
-    SegmentTree<int>seg(n);
+    SegmentTree<ll>seg(n);
     seg.init(v);
     while (m--) {
-        int t;
-        cin >> t;
-        if (t == 1) {
-            int i, x;
-            cin >> i >> x;
-            seg.update(i - 1, x);
-        }
-        else {
-            int l, r;
-            cin >> l >> r;
-            cout << seg.query(l - 1, r - 1) << "\n";
-        }
+        int i, x;
+        cin >> i >> x;
+        seg.update(i - 1, x);
+        cout << max(0ll, seg.query(0, n - 1)) << '\n';
     }
-
 }
 int main() {
     Fast;
     int T = 1;
     //cin >> T;
-    for (int i = 1; i <= T; i++) {
-        //cout << "Case " << i << ":\n";
+    while (T--) {
         solve();
-        //if (T)
-            //cout << '\n';
+        if (T)
+            cout << '\n';
     }
 }
