@@ -1,0 +1,802 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="2836" dy="3685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-339" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.742;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxHX548yeKSoy9pPU-Tt-0" target="hxHX548yeKSoy9pPU-Tt-338" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-0" value="Room" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24.087499618530273;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="290" y="820" width="450" height="392.0874996185303" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-1" value="-int room_number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-0" vertex="1">
+          <mxGeometry y="24.087499618530273" width="450" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-2" value="-double price_per_night" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-0" vertex="1">
+          <mxGeometry y="48.08749961853027" width="450" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-3" value="-string type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-0" vertex="1">
+          <mxGeometry y="72.08749961853027" width="450" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-4" value="-string status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-0" vertex="1">
+          <mxGeometry y="96.08749961853027" width="450" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="hxHX548yeKSoy9pPU-Tt-0" vertex="1">
+          <mxGeometry y="120.08749961853027" width="450" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-6" value="+Room()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-0" vertex="1">
+          <mxGeometry y="128.08749961853027" width="450" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-7" value="+Room(int room_number, double price, const string&amp; type, const string&amp; status)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-0" vertex="1">
+          <mxGeometry y="152.08749961853027" width="450" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-8" value="+setType(const string&amp; type) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-0" vertex="1">
+          <mxGeometry y="176.08749961853027" width="450" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-9" value="+setPrice(double price_) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-0" vertex="1">
+          <mxGeometry y="200.08749961853027" width="450" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-10" value="+setStatus(const string&amp; status) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-0" vertex="1">
+          <mxGeometry y="224.08749961853027" width="450" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-11" value="+getType() : const string&amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-0" vertex="1">
+          <mxGeometry y="248.08749961853027" width="450" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-12" value="+getPrice() : double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-0" vertex="1">
+          <mxGeometry y="272.0874996185303" width="450" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-13" value="+getStatus() : const string&amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-0" vertex="1">
+          <mxGeometry y="296.0874996185303" width="450" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-14" value="+getNumber() : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-0" vertex="1">
+          <mxGeometry y="320.0874996185303" width="450" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-15" value="+toString() : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-0" vertex="1">
+          <mxGeometry y="344.0874996185303" width="450" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-16" value="+printRoomDetails() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-0" vertex="1">
+          <mxGeometry y="368.0874996185303" width="450" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-363" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.61;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxHX548yeKSoy9pPU-Tt-18" target="hxHX548yeKSoy9pPU-Tt-362" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-18" value="RoomsManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=23.75;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="250" y="140" width="510" height="487.75" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-19" value="-vector&lt;Room*&gt; rooms" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-18" vertex="1">
+          <mxGeometry y="23.75" width="510" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-20" value="-int last_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-18" vertex="1">
+          <mxGeometry y="47.75" width="510" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-21" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="hxHX548yeKSoy9pPU-Tt-18" vertex="1">
+          <mxGeometry y="71.75" width="510" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-22" value="-getNewId() : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-18" vertex="1">
+          <mxGeometry y="79.75" width="510" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-23" value="-findRoom(int room_number) : Room" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-18" vertex="1">
+          <mxGeometry y="103.75" width="510" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-24" value="+RoomsManager()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-18" vertex="1">
+          <mxGeometry y="127.75" width="510" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-25" value="+~RoomsManager()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-18" vertex="1">
+          <mxGeometry y="151.75" width="510" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-26" value="+addNewRoom(const string&amp; type, const string&amp; status, double price) : optional&lt;Room&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-18" vertex="1">
+          <mxGeometry y="175.75" width="510" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-27" value="+getAllRooms() : vector&lt;Room&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-18" vertex="1">
+          <mxGeometry y="199.75" width="510" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-28" value="+getLastAdded() : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-18" vertex="1">
+          <mxGeometry y="223.75" width="510" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-29" value="+getNumberOfRooms() : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-18" vertex="1">
+          <mxGeometry y="247.75" width="510" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-30" value="+searchForRoom(int room_number) : optional&lt;Room&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-18" vertex="1">
+          <mxGeometry y="271.75" width="510" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-31" value="+doesRoomExist(int room_number) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-18" vertex="1">
+          <mxGeometry y="295.75" width="510" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-32" value="+updateRoomPrice(int room_num, double price) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-18" vertex="1">
+          <mxGeometry y="319.75" width="510" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-33" value="+updateRoomType(int room_num, const string&amp; type) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-18" vertex="1">
+          <mxGeometry y="343.75" width="510" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-34" value="+updateRoomStatus(int room_num, const string&amp; status) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-18" vertex="1">
+          <mxGeometry y="367.75" width="510" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-35" value="+getRoomByStatus(const string&amp; status = &quot;Available&quot;) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-18" vertex="1">
+          <mxGeometry y="391.75" width="510" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-36" value="+deleteRoom(int room_number) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-18" vertex="1">
+          <mxGeometry y="415.75" width="510" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-37" value="+RoomsManager(const RoomsManager&amp;) : delete" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-18" vertex="1">
+          <mxGeometry y="439.75" width="510" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-38" value="+operator=(const RoomsManager&amp;) : delete" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-18" vertex="1">
+          <mxGeometry y="463.75" width="510" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-67" value="Customer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=23.75;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="940" y="780" width="490" height="487.75" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-68" value="-int id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-67" vertex="1">
+          <mxGeometry y="23.75" width="490" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-69" value="-int age" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-67" vertex="1">
+          <mxGeometry y="47.75" width="490" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-70" value="-string name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-67" vertex="1">
+          <mxGeometry y="71.75" width="490" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-71" value="-string phone_number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-67" vertex="1">
+          <mxGeometry y="95.75" width="490" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-72" value="-string email" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-67" vertex="1">
+          <mxGeometry y="119.75" width="490" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-73" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="hxHX548yeKSoy9pPU-Tt-67" vertex="1">
+          <mxGeometry y="143.75" width="490" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-74" value="-validateEmail(const string&amp; email_) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-67" vertex="1">
+          <mxGeometry y="151.75" width="490" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-75" value="-validatePhoneNumber(const string&amp; phone) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-67" vertex="1">
+          <mxGeometry y="175.75" width="490" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-76" value="+Customer()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-67" vertex="1">
+          <mxGeometry y="199.75" width="490" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-77" value="+Customer(int id, const string&amp; name, int age, const string&amp; phone, const string&amp; email)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-67" vertex="1">
+          <mxGeometry y="223.75" width="490" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-78" value="+setEmail(const string&amp; email_) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-67" vertex="1">
+          <mxGeometry y="247.75" width="490" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-79" value="+setPhoneNumber(const string&amp; phone) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-67" vertex="1">
+          <mxGeometry y="271.75" width="490" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-80" value="+getId() : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-67" vertex="1">
+          <mxGeometry y="295.75" width="490" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-81" value="+getName() : const string&amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-67" vertex="1">
+          <mxGeometry y="319.75" width="490" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-82" value="+getAge() : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-67" vertex="1">
+          <mxGeometry y="343.75" width="490" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-83" value="+getEmail() : const string&amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-67" vertex="1">
+          <mxGeometry y="367.75" width="490" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-84" value="+getPhoneNumber() : const string&amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-67" vertex="1">
+          <mxGeometry y="391.75" width="490" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-85" value="+operator==(const Customer&amp; other) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-67" vertex="1">
+          <mxGeometry y="415.75" width="490" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-86" value="+toString() : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-67" vertex="1">
+          <mxGeometry y="439.75" width="490" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-87" value="+printCustomerData() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-67" vertex="1">
+          <mxGeometry y="463.75" width="490" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-366" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxHX548yeKSoy9pPU-Tt-111" target="hxHX548yeKSoy9pPU-Tt-364" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-111" value="CustomersManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=23.900000678168404;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="870" y="145" width="630" height="439.9000006781684" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-112" value="-int last_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-111" vertex="1">
+          <mxGeometry y="23.900000678168404" width="630" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-113" value="-vector&lt;Customer*&gt; customers" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-111" vertex="1">
+          <mxGeometry y="47.900000678168404" width="630" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-114" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="hxHX548yeKSoy9pPU-Tt-111" vertex="1">
+          <mxGeometry y="71.9000006781684" width="630" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-115" value="-getNewId() : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-111" vertex="1">
+          <mxGeometry y="79.9000006781684" width="630" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-116" value="-findCustomer(int customer_id) : Customer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-111" vertex="1">
+          <mxGeometry y="103.9000006781684" width="630" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-117" value="+CustomersManager()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-111" vertex="1">
+          <mxGeometry y="127.9000006781684" width="630" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-118" value="+~CustomersManager()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-111" vertex="1">
+          <mxGeometry y="151.9000006781684" width="630" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-119" value="+getNumberOfCustomers() : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-111" vertex="1">
+          <mxGeometry y="175.9000006781684" width="630" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-120" value="+getAllCustomers() : vector&lt;Customer&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-111" vertex="1">
+          <mxGeometry y="199.9000006781684" width="630" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-121" value="+getLastAdded() : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-111" vertex="1">
+          <mxGeometry y="223.9000006781684" width="630" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-122" value="+searchForCustomer(int customer_id) : optional&lt;Customer&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-111" vertex="1">
+          <mxGeometry y="247.9000006781684" width="630" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-123" value="+doesCustomerExist(int customer_id) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-111" vertex="1">
+          <mxGeometry y="271.9000006781684" width="630" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-124" value="+addNewCustomer(const string&amp; name, int age, const string&amp; phone, const string&amp; email) : optional&lt;Customer&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-111" vertex="1">
+          <mxGeometry y="295.9000006781684" width="630" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-125" value="+updateCustomerEmail(int customer_id, const string&amp; email) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-111" vertex="1">
+          <mxGeometry y="319.9000006781684" width="630" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-126" value="+updateCustomerPhone(int customer_id, const string&amp; phone) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-111" vertex="1">
+          <mxGeometry y="343.9000006781684" width="630" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-127" value="+deleteCustomer(int customer_id) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-111" vertex="1">
+          <mxGeometry y="367.9000006781684" width="630" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-128" value="+CustomersManager(const CustomersManager&amp;) : delete" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-111" vertex="1">
+          <mxGeometry y="391.9000006781684" width="630" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-129" value="+operator=(const CustomersManager&amp;) : delete" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-111" vertex="1">
+          <mxGeometry y="415.9000006781684" width="630" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-349" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxHX548yeKSoy9pPU-Tt-130" target="hxHX548yeKSoy9pPU-Tt-347" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1920" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-130" value="Booking" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=23.3;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1510" y="750" width="850" height="698.3" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-131" value="-int booking_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="23.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-132" value="-string status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="46.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-133" value="-DateTime check_in" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="69.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-134" value="-DateTime check_out" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="92.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-135" value="-double cost" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="115.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-136" value="-int room_number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="138.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-137" value="-int customer_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="161.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-138" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="184.3" width="850" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-139" value="-isValidStatus(string status) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="192.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-140" value="-isValidCheckIn(const DateTime&amp; check_in) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="215.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-141" value="-isValidCheckOut(const DateTime&amp; check_out) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="238.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-142" value="+Booking()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="261.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-143" value="+Booking(int booking_id, int room_id, int customer_id, double room_price, const DateTime&amp; check_in, const DateTime&amp; check_out, const string&amp; status)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="284.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-144" value="+operator==(const Booking&amp; rhs) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="307.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-145" value="+isOverlapping(const DateTime&amp; chin, const DateTime&amp; chout) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="330.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-146" value="+setStatus(const string&amp; status_) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="353.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-147" value="+setRoomNumber(int room_num) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="376.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-148" value="+setCheckIn(const DateTime&amp; check_in_) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="399.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-149" value="+setCheckOut(const DateTime&amp; check_out_) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="422.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-150" value="+getId() : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="445.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-151" value="+getStatus() : const string&amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="468.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-152" value="+getCost() : double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="491.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-153" value="+getCheckIn() : const DateTime&amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="514.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-154" value="+getCheckOut() : const DateTime&amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="537.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-155" value="+getRoomNumber() : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="560.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-156" value="+getCustomerId() : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="583.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-157" value="+setCost(double room_price) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="606.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-158" value="+getNumberOfNights() : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="629.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-159" value="+toString() : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="652.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-160" value="+printBookingData() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-130" vertex="1">
+          <mxGeometry y="675.3" width="850" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-351" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxHX548yeKSoy9pPU-Tt-161" target="hxHX548yeKSoy9pPU-Tt-350" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-161" value="DateTime" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=23.988234576056986;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1720" y="1540" width="420" height="367.988234576057" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-162" value="-chrono::system_clock::time_point m_time" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-161" vertex="1">
+          <mxGeometry y="23.988234576056986" width="420" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-163" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="hxHX548yeKSoy9pPU-Tt-161" vertex="1">
+          <mxGeometry y="47.98823457605698" width="420" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-164" value="+DateTime()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-161" vertex="1">
+          <mxGeometry y="55.98823457605698" width="420" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-165" value="+DateTime(const string&amp; dateTimeString)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-161" vertex="1">
+          <mxGeometry y="79.98823457605698" width="420" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-166" value="+operator+(int days) : DateTime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-161" vertex="1">
+          <mxGeometry y="103.98823457605698" width="420" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-168" value="+operator&gt;=(const DateTime&amp; rhs) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-161" vertex="1">
+          <mxGeometry y="127.98823457605698" width="420" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-169" value="+operator&gt;(const DateTime&amp; rhs) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-161" vertex="1">
+          <mxGeometry y="151.98823457605698" width="420" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-171" value="+setDateTime(const chrono::system_clock::time_point&amp; new_time) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-161" vertex="1">
+          <mxGeometry y="175.98823457605698" width="420" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-172" value="+setDateTime(const string&amp; date_time_string) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-161" vertex="1">
+          <mxGeometry y="199.98823457605698" width="420" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-173" value="+setDateAtNoon(const string&amp; date_string) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-161" vertex="1">
+          <mxGeometry y="223.98823457605698" width="420" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-174" value="+getDayDifference(const DateTime&amp; other) : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-161" vertex="1">
+          <mxGeometry y="247.98823457605698" width="420" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-175" value="+getDateTimeString() : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-161" vertex="1">
+          <mxGeometry y="271.988234576057" width="420" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-176" value="+getTimeString() : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-161" vertex="1">
+          <mxGeometry y="295.988234576057" width="420" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-177" value="+getDateString() : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-161" vertex="1">
+          <mxGeometry y="319.988234576057" width="420" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-178" value="+getTimePoint() : chrono::system_clock::time_point" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-161" vertex="1">
+          <mxGeometry y="343.988234576057" width="420" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-361" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxHX548yeKSoy9pPU-Tt-179" target="hxHX548yeKSoy9pPU-Tt-360" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-179" value="BookingsManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=23.75;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1580" y="140" width="780" height="487.75" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-180" value="-int last_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-179" vertex="1">
+          <mxGeometry y="23.75" width="780" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-181" value="-vector&lt;Booking*&gt; bookings" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-179" vertex="1">
+          <mxGeometry y="47.75" width="780" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-182" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="hxHX548yeKSoy9pPU-Tt-179" vertex="1">
+          <mxGeometry y="71.75" width="780" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-183" value="-getNewId() : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-179" vertex="1">
+          <mxGeometry y="79.75" width="780" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-184" value="-findBooking(int booking_id) : Booking" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-179" vertex="1">
+          <mxGeometry y="103.75" width="780" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-185" value="+BookingsManager()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-179" vertex="1">
+          <mxGeometry y="127.75" width="780" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-186" value="+~BookingsManager()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-179" vertex="1">
+          <mxGeometry y="151.75" width="780" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-187" value="+getNumberOfBookings() : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-179" vertex="1">
+          <mxGeometry y="175.75" width="780" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-188" value="+getAllBookings() : vector&lt;Booking&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-179" vertex="1">
+          <mxGeometry y="199.75" width="780" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-189" value="+getBookingsByRoom(int room_number) : vector&lt;Booking&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-179" vertex="1">
+          <mxGeometry y="223.75" width="780" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-190" value="+getLastAdded() : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-179" vertex="1">
+          <mxGeometry y="247.75" width="780" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-191" value="+searchForBooking(int booking_number) : optional&lt;Booking&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-179" vertex="1">
+          <mxGeometry y="271.75" width="780" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-192" value="+doesBookingExist(int booking_id) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-179" vertex="1">
+          <mxGeometry y="295.75" width="780" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-193" value="+addNewBooking(int customer_id, int room_number, double room_price, const DateTime&amp; chin, const DateTime&amp; chout) : optional&lt;Booking&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-179" vertex="1">
+          <mxGeometry y="319.75" width="780" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-194" value="+updateRoom(int booking_id, int room_number) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-179" vertex="1">
+          <mxGeometry y="343.75" width="780" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-195" value="+updateBookingStatus(int booking_id, const string&amp; status) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-179" vertex="1">
+          <mxGeometry y="367.75" width="780" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-196" value="+updateBookingDates(int booking_id, const DateTime&amp; chin, const DateTime&amp; chout) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-179" vertex="1">
+          <mxGeometry y="391.75" width="780" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-197" value="+deleteBooking(int booking_id) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-179" vertex="1">
+          <mxGeometry y="415.75" width="780" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-198" value="+BookingsManager(const BookingsManager&amp;) : delete" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-179" vertex="1">
+          <mxGeometry y="439.75" width="780" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-199" value="+operator=(const BookingsManager&amp;) : delete" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-179" vertex="1">
+          <mxGeometry y="463.75" width="780" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-418" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxHX548yeKSoy9pPU-Tt-203" target="hxHX548yeKSoy9pPU-Tt-417" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="-999.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-425" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxHX548yeKSoy9pPU-Tt-203" target="hxHX548yeKSoy9pPU-Tt-422" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-203" value="HotelManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=23.11052663702714;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="880" y="-882" width="760" height="882.1105266370271" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-204" value="-RoomsManager rooms_manager" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="23.11052663702714" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-205" value="-CustomersManager customers_manager" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="46.110526637027135" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-206" value="-BookingsManager bookings_manager" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="69.11052663702714" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-207" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="92.11052663702714" width="760" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-208" value="-getRoomsManager() : RoomsManager&amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="100.11052663702714" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-209" value="-getCustomersManager() : CustomersManager&amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="123.11052663702714" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-210" value="-getBookingsManager() : BookingsManager&amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="146.11052663702714" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-211" value="+HotelManager()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="169.11052663702714" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-212" value="+doesRoomExist(int room_number) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="192.11052663702714" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-213" value="+doesCustomerExist(int customer_id) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="215.11052663702714" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-214" value="+doesBookingExist(int booking_id) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="238.11052663702714" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-215" value="+isRoomAvailableForDate(int room_number, const DateTime&amp; check_in, const DateTime&amp; check_out, int exclude_booking_id) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="261.11052663702714" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-216" value="+getAvailableRooms(const DateTime&amp; check_in, const DateTime&amp; check_out) : vector&lt;Room&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="284.11052663702714" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-217" value="+getRoomByNumber(int room_num) : optional&lt;Room&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="307.11052663702714" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-218" value="+getCustomerById(int customer_id) : optional&lt;Customer&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="330.11052663702714" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-219" value="+getBookingById(int booking_id) : optional&lt;Booking&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="353.11052663702714" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-220" value="+getAllRooms() : vector&lt;Room&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="376.11052663702714" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-221" value="+getAllCustomers() : vector&lt;Customer&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="399.11052663702714" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-222" value="+getAllBookings() : vector&lt;Booking&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="422.11052663702714" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-223" value="+getLastAddedRoom() : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="445.11052663702714" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-224" value="+getLastAddedCustomer() : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="468.11052663702714" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-225" value="+getLastAddedBooking() : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="491.11052663702714" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-226" value="+updateRoomPrice(int room_number, double price) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="514.1105266370271" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-227" value="+updateRoomType(int room_number, const string&amp; type) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="537.1105266370271" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-228" value="+updateRoomStatus(int room_number, const string&amp; status) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="560.1105266370271" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-229" value="+updateCustomerPhone(int customer_id, const string&amp; phone) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="583.1105266370271" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-230" value="+updateCustomerEmail(int customer_id, const string&amp; email) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="606.1105266370271" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-231" value="+updateBookingRoom(int booking_id, int new_room_number) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="629.1105266370271" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-232" value="+updateBookingStatus(int booking_id, const string&amp; status) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="652.1105266370271" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-233" value="+updateBookingDates(int booking_id, const DateTime&amp; check_in, const DateTime&amp; check_out) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="675.1105266370271" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-234" value="+addNewRoom(const string&amp; type, const string&amp; status, double price) : optional&lt;Room&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="698.1105266370271" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-235" value="+addNewCustomer(const string&amp; name, int age, const string&amp; phone, const string&amp; email) : optional&lt;Customer&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="721.1105266370271" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-236" value="+addNewBooking(const string&amp; date, int days, int customer_id, int room_number) : optional&lt;Booking&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="744.1105266370271" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-237" value="+deleteRoom(int room_number) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="767.1105266370271" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-238" value="+deleteCustomer(int customer_id) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="790.1105266370271" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-239" value="+deleteBooking(int booking_id) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="813.1105266370271" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-240" value="+HotelManager(const HotelManager&amp;) : delete" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="836.1105266370271" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-241" value="+operator=(const HotelManager&amp;) : delete" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-203" vertex="1">
+          <mxGeometry y="859.1105266370271" width="760" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="6a2bhUYMzntPsh9owcnn-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.449;exitY=-0.001;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hxHX548yeKSoy9pPU-Tt-308" target="hxHX548yeKSoy9pPU-Tt-423">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-308" value="HotelUI" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=23.75;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="880" y="-1524" width="440" height="487.75" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-309" value="-HotelManager&amp; hotel_manager" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-308" vertex="1">
+          <mxGeometry y="23.75" width="440" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-310" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="hxHX548yeKSoy9pPU-Tt-308" vertex="1">
+          <mxGeometry y="47.75" width="440" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-311" value="-getHotelManager() : HotelManager&amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-308" vertex="1">
+          <mxGeometry y="55.75" width="440" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-312" value="+HotelUI(HotelManager&amp; manager)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-308" vertex="1">
+          <mxGeometry y="79.75" width="440" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-313" value="+printAvailableRoomsUI(const DateTime&amp; chin, const DateTime&amp; chout) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-308" vertex="1">
+          <mxGeometry y="103.75" width="440" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-314" value="+printAllRoomsUI() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-308" vertex="1">
+          <mxGeometry y="127.75" width="440" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-315" value="+printAllCustomersUI() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-308" vertex="1">
+          <mxGeometry y="151.75" width="440" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-316" value="+printAllBookingsUI() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-308" vertex="1">
+          <mxGeometry y="175.75" width="440" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-317" value="+printRoomByNumberUI() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-308" vertex="1">
+          <mxGeometry y="199.75" width="440" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-318" value="+printCustomerByIdUI() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-308" vertex="1">
+          <mxGeometry y="223.75" width="440" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-319" value="+printBookingByIDUI() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-308" vertex="1">
+          <mxGeometry y="247.75" width="440" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-320" value="+addNewRoomUI() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-308" vertex="1">
+          <mxGeometry y="271.75" width="440" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-321" value="+addNewCustomerUI() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-308" vertex="1">
+          <mxGeometry y="295.75" width="440" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-322" value="+addNewBookingUI() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-308" vertex="1">
+          <mxGeometry y="319.75" width="440" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-323" value="+deleteRoomUI() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-308" vertex="1">
+          <mxGeometry y="343.75" width="440" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-324" value="+deleteCustomerUI() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-308" vertex="1">
+          <mxGeometry y="367.75" width="440" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-325" value="+deleteBookingUI() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-308" vertex="1">
+          <mxGeometry y="391.75" width="440" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-326" value="+modifyRoomUI() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-308" vertex="1">
+          <mxGeometry y="415.75" width="440" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-327" value="+modifyCustomerUI() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-308" vertex="1">
+          <mxGeometry y="439.75" width="440" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-328" value="+modifyBookingUI() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-308" vertex="1">
+          <mxGeometry y="463.75" width="440" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-338" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="505" y="627.75" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-343" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.742;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="hxHX548yeKSoy9pPU-Tt-344" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150" y="780" as="sourcePoint" />
+            <mxPoint x="1150" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-344" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1140" y="587.75" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-347" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1925" y="627.75" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-350" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1920" y="1448.3" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-352" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="505" y="640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-353" value="*" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="500" y="790" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-354" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1140" y="610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-355" value="*" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1140" y="750" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-356" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1920" y="650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-357" value="*" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1920" y="720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-360" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1640" y="-140" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-362" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="860" y="-140" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-364" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1175" y="-5.689893001203927e-16" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-394" value="HotelSystem" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24.2;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1500" y="-1930" width="319" height="368.2" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-395" value="-HotelManager hotel_manager" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-394" vertex="1">
+          <mxGeometry y="24.2" width="319" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-396" value="-HotelUI hotel_ui" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-394" vertex="1">
+          <mxGeometry y="48.2" width="319" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-397" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="hxHX548yeKSoy9pPU-Tt-394" vertex="1">
+          <mxGeometry y="72.2" width="319" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-398" value="-getHotelUI() : HotelUI&amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-394" vertex="1">
+          <mxGeometry y="80.2" width="319" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-399" value="-getHotelManager() : HotelManager&amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-394" vertex="1">
+          <mxGeometry y="104.2" width="319" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-400" value="-showAdminRoomManagement() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-394" vertex="1">
+          <mxGeometry y="128.2" width="319" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-401" value="-showReceptionistRoomOperations() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-394" vertex="1">
+          <mxGeometry y="152.2" width="319" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-402" value="-showCustomerManagementMenu() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-394" vertex="1">
+          <mxGeometry y="176.2" width="319" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-403" value="-showBookingManagementMenu() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-394" vertex="1">
+          <mxGeometry y="200.2" width="319" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-404" value="-showAdminMenu() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-394" vertex="1">
+          <mxGeometry y="224.2" width="319" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-405" value="-showReceptionistMenu() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-394" vertex="1">
+          <mxGeometry y="248.2" width="319" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-406" value="-checkPassword(const string&amp; role) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-394" vertex="1">
+          <mxGeometry y="272.2" width="319" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-407" value="-showMainMenu() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-394" vertex="1">
+          <mxGeometry y="296.2" width="319" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-408" value="+HotelSystem()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-394" vertex="1">
+          <mxGeometry y="320.2" width="319" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-409" value="+run() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hxHX548yeKSoy9pPU-Tt-394" vertex="1">
+          <mxGeometry y="344.2" width="319" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-410" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="550" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-411" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="810" y="-120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-412" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1170" y="115" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-413" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1170" y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-414" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1640" y="-120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-415" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1925" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-417" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1110" y="-1036.25" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-420" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1110" y="-1020" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-421" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1241" y="-912" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-422" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1640" y="-1561.8" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-423" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1480" y="-1753" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-427" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1450" y="-1723" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-428" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1640" y="-1540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-429" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1400" y="-912" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-431" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1880" y="1470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hxHX548yeKSoy9pPU-Tt-432" value="*" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1880" y="1510" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
